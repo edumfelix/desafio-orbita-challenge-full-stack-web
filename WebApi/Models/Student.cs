@@ -12,22 +12,22 @@ namespace WebApi.Models
         [Column("name")]
         [Required]
         [StringLength(50)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Column("email")]
         [Required]
         [StringLength(50)]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Column("cpf")]
         [Required]
         [StringLength(20)]
-        public string CPF {  get; set; }
+        public string? CPF {  get; set; }
         
         [Column("ra")]
         [Required]
         [StringLength(20)]
         
-        public string RA { get; set; }
+        public string? RA { get; set; }
     }
 }
