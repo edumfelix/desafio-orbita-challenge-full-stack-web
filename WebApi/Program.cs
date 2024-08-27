@@ -7,6 +7,17 @@ using WebApi.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 // Add services to the container.
 
 var connectionString = builder.Configuration["dbContextSettings:ConnectionString"];
@@ -29,6 +40,8 @@ builder.Services.AddSwaggerGen(c =>
 );
 
 var app = builder.Build();
+
+app.UseCors("AllowAllOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

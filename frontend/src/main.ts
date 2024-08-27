@@ -13,6 +13,12 @@ import App from './App.vue'
 // Composables
 import { createApp } from 'vue'
 
+import axios from 'axios'
+
+
+axios.defaults.baseURL = "https://localhost:7198/api/v1/student"
+
+
 const app = createApp(App)
 
 registerPlugins(app)
