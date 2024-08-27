@@ -1,3 +1,5 @@
+## Documentação da Arquitetura da Solução
+
 ### 1. **Visão Geral do Sistema**
 
 - **Descrição do Sistema:**  
@@ -18,6 +20,7 @@
 ### 2. **Arquitetura do Sistema**
 
 - **Diagramas de Arquitetura:**  
+![Diagrama da arquitetura do sistema](https://drive.google.com/file/d/1ph8XmOZXZ6byKRxAz70rOS-77-Eq9GED/view?usp=sharing)
 
    *Fluxo Detalhado:*
       Front-end faz uma requisição HTTP (GET, POST, PUT, DELETE) para o Controller.
@@ -28,13 +31,13 @@
       Controller envia a resposta processada de volta ao Front-end.
 
 - **Telas do Sistema:**
-   Tela de listagem de alunos
+   ![Tela de listagem de alunos](https://drive.google.com/file/d/1INxkTWyRrA0DJxojK6L2sjwqPXov0YM_/view?usp=drive_link)
 
-   Tela de confirmação de exclusão de aluno
+   ![Tela de confirmação de exclusão de aluno](https://drive.google.com/file/d/10lYaqA-8wIa78SqhHQFwKVdT0YDtAgqH/view?usp=drive_link)
 
-   Tela de criação de aluno
+   ![Tela de criação de aluno](https://drive.google.com/file/d/1sf7wFcB1-SymYGugSg7JDjihGbwagPZe/view?usp=sharing)
 
-   Tela de edição de aluno  
+   ![Tela de edição de aluno](https://drive.google.com/file/d/1q4jaLjg_s_Nn8wgwJaJXRMfrkycYU_zT/view?usp=sharing)  
 
 
 ### 3. **Tecnologias e Ferramentas**
