@@ -1,3 +1,5 @@
+## Documentação da Arquitetura da Solução
+
 ### 1. **Visão Geral do Sistema**
 
 - **Descrição do Sistema:**  
@@ -18,23 +20,30 @@
 ### 2. **Arquitetura do Sistema**
 
 - **Diagramas de Arquitetura:**  
+![Diagrama da arquitetura do sistema](https://drive.google.com/thumbnail?id=1igjebuhwQ8flw5v0NsK230MwWedifZcM&sz=w1000)
 
    *Fluxo Detalhado:*
       Front-end faz uma requisição HTTP (GET, POST, PUT, DELETE) para o Controller.
+  
       Controller processa a requisição e utiliza o VO para encapsular os dados a serem enviados ao Repository.
+  
       Repository usa AutoMapper para converter entre VO e a entidade Model. O repositório interage com o Entity Framework Core para realizar operações de CRUD no banco de dados.
+  
       O Entity Framework Core executa as operações no banco de dados e retorna os resultados para o Repository.
+  
       Repository converte os resultados de volta para VO e os retorna para o Controller.
+  
       Controller envia a resposta processada de volta ao Front-end.
 
 - **Telas do Sistema:**
-   Tela de listagem de alunos
+  
+   ![Tela de listagem de alunos](https://drive.google.com/thumbnail?id=1INxkTWyRrA0DJxojK6L2sjwqPXov0YM_&sz=w1000)
 
-   Tela de confirmação de exclusão de aluno
+   ![Tela de confirmação de exclusão de aluno](https://drive.google.com/thumbnail?id=10lYaqA-8wIa78SqhHQFwKVdT0YDtAgqH&sz=w1000)
 
-   Tela de criação de aluno
+   ![Tela de criação de aluno](https://drive.google.com/thumbnail?id=1sf7wFcB1-SymYGugSg7JDjihGbwagPZe&sz=w1000)
 
-   Tela de edição de aluno  
+   ![Tela de edição de aluno](https://drive.google.com/thumbnail?id=1q4jaLjg_s_Nn8wgwJaJXRMfrkycYU_zT&sz=w1000)  
 
 
 ### 3. **Tecnologias e Ferramentas**
