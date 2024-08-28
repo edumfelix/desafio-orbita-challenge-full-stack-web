@@ -18,6 +18,10 @@ Essa arquitetura proporciona uma estrutura robusta e modular, ideal para aplica�
 - AutoMapper
 - Npgsql
 
+### Testes Unitários
+- XUnit
+- Moq
+
 ## O Que Você Melhoraria se Tivesse Mais Tempo
 
 - Melhoraria a formatação e tratamento dos campos de texto, utilizando máscaras e verificando se o campo CPF é válido.

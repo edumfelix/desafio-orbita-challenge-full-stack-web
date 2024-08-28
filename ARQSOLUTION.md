@@ -8,7 +8,7 @@
   - Desenvolvimento da interface de usuário para listagem, criação, edição e exclusão de alunos.
   - Implementação de uma API para gerenciar os dados de alunos.
   - Utilização de tecnologias específicas como Vuetify, .NET Core, C#, e Entity Framework.
-  - Persistência dos dados em um banco de dados Postgres ou MySQL.
+  - Persistência dos dados em um banco de dados Postgres.
 
   *Fora do Escopo:*
   - Funcionalidades avançadas de autenticação e autorização de usuários.
