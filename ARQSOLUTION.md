@@ -59,6 +59,10 @@
   - **C#:** Linguagem de programação utilizada para implementar a lógica de negócios.
   - **Entity Framework:** ORM para interagir com o banco de dados.
 
+  *Testes Unitários:*
+  - **xUnit:** Framework para escrever testes unitários em .NET.
+  - **Moq:** Biblioteca para criar mocks e simulações de dependências para testes unitários.
+
   *Banco de Dados:*
   - **Postgres:** Sistema de gerenciamento de banco de dados para armazenar as informações dos alunos.
 
